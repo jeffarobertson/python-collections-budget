@@ -6,5 +6,5 @@ class BudgetList:
         self.sum_overages = 0
         self.overages = []
 
-    def __append__(self, item):
+    def append(self, item):
         pass
