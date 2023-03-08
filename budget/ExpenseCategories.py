@@ -30,7 +30,7 @@ def main():
 
     print(
         timeit.timeit(
-            stmt="expenses.categorize_set_comp()",
+            stmt="expenses.categorize_set_comprehension()",
             setup='''
                 from . import Expense
                 expenses = Expense.Expenses()
